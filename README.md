@@ -63,3 +63,4 @@ http://umszki.hu/
 ![távolikép](https://store-images.s-microsoft.com/image/apps.11159.71999796408230842.d5b102d1-59c5-43a9-a0a7-791f1ac92271.f1502064-c283-41af-afac-644102e73fd7?q=90&w=480&h=270)
 
 ![helyikép](vbucks.jpg)
+sigma
