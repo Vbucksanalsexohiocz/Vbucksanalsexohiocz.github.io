@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemping Biciklik</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .bike {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .bike:hover {
+            transform: scale(1.05);
+        }
+        .bike img {
+            width: 100%;
+            height: auto;
+        }
+        .bike-info {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kemping Biciklik</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Rólunk</a></li>
+            <li><a href="#bikes">Biciklik</a></li>
+            <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="about">
+        <h2>Rólunk</h2>
+        <p>Bazsi10 Kemping Cangái a kényelmes és minőségi szolgáltatásokra helyezi a hangsúlyt. Célunk, hogy megkönnyítsük vendégeink kempingezését, és lehetővé tegyük számukra, hogy élvezhessék a környező természetet biciklizéssel. Profi csapatunk mindent megtesz annak érdekében, hogy kényelmes és biztonságos biciklikkel szolgálhassunk ki minden kedves vendégünket.</p>
+        <p>Legyen szó családi kirándulásról, baráti összejövetelről vagy egyszerű pihenésről, Bazsi10 Kemping Cangái minden igényt kielégítő kínálattal várja Önt. Büszkék vagyunk arra, hogy hosszú távú partnerként szolgálhatunk az Ön kempingében.</p>
+    </div>
+    <div class="container" id="bikes">
+        <h2>Biciklik</h2>
+        <div class="bike">
+            <img src="https://9fd716fc74.clvaw-cdnwnd.com/bf426a748c873585bdce0efd4239c3f4/200000497-e19f9e19fb/IMG_3575.JPG?ph=9fd716fc74" alt="Bicikli 1">
+            <div class="bike-info">
+                <h3>Csepel Csilla 1975 (MK2)</h3>
+                <p>Ár: 45000Ft</p>
+            </div>
+        </div>
+        <div class="bike">
+            <img src="https://9fd716fc74.clvaw-cdnwnd.com/bf426a748c873585bdce0efd4239c3f4/200000743-858aa858ad/IMG_E8511.webp?ph=9fd716fc74" alt="Bicikli 2">
+            <div class="bike-info">
+                <h3>Csepel Csillag 1980 (MK2/3)</h3>
+                <p>Ár: 38000Ft</p>
+            </div>
+        </div>
+        <div class="bike">
+            <img src="https://9fd716fc74.clvaw-cdnwnd.com/bf426a748c873585bdce0efd4239c3f4/200000305-49b0249b04/IMG_E8530.JPG?ph=9fd716fc74" alt="Bicikli 3">
+            <div class="bike-info">
+                <h3>Csepel Supernova 1989 (MK4)</h3>
+                <p>Ár: 32000Ft</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Kapcsolat</h2>
+        <p>Ha bármilyen kérdése van vagy szeretne foglalni, kérjük, vegye fel velünk a kapcsolatot az alábbi elérhetőségek valamelyikén:</p>
+        <p>Email: almandiana00@gmail.com</p>
+        <p>Telefon: +36 30 424 3922</p>
+    </div>
+    <footer>
+        <p>&copy; Bazsi10 Kemping Cangái. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
